@@ -2,77 +2,59 @@
   "name": "Blue Eyes, primite",
   "format": "Yu-Gi-Oh! Master Duel",
   "trainingLevel": "Expert",
-  "mainDeck": [
-    ["Blue-Eyes White Dragon",2],["Sage with Eyes of Blue",3],["Maiden of White",3],["Primite Dragon Ether Beryl",3],["Ash Blossom & Joyous Spring",3],["Effect Veiler",3],["Maxx \"C\"",2],
-    ["Wishes for Eyes of Blue",3],["Primite Lordly Lode",3],["Primite Drillbeam",1],["Roar of the Blue-Eyed Dragons",1],["Mausoleum of White",1],["Crossout Designator",1],["Called by the Grave",2],["Synchro Rumble",1],["Ultimate Fusion",1],
-    ["True Light",1],["Infinite Impermanence",3],["Dominus Purge",3]
-  ],
-  "extraDeck": [
-    ["Blue-Eyes Ultimate Spirit Dragon",2],["Blue-Eyes Spirit Dragon",2],["Spirit with Eyes of Blue",2],["Blue-Eyes Tyrant Dragon",1],["Neo Blue-Eyes Ultimate Dragon",1],["Lightstorm Dragon",1],["Stardust Sifr Divine Dragon",1],["Crimson Dragon",1],["Cosmic Blazar Dragon",1],["Hieratic Seal of the Heavenly Spheres",1],["S:P Little Knight",1],["Linkuriboh",1]
-  ],
+  "videoReference": "User-provided video section 4:46–8:17",
+  "mainDeck": [["Blue-Eyes White Dragon",2],["Sage with Eyes of Blue",3],["Maiden of White",3],["Primite Dragon Ether Beryl",3],["Ash Blossom & Joyous Spring",3],["Effect Veiler",3],["Maxx \"C\"",2],["Wishes for Eyes of Blue",3],["Primite Lordly Lode",3],["Primite Drillbeam",1],["Roar of the Blue-Eyed Dragons",1],["Mausoleum of White",1],["Crossout Designator",1],["Called by the Grave",2],["Synchro Rumble",1],["Ultimate Fusion",1],["True Light",1],["Infinite Impermanence",3],["Dominus Purge",3]],
+  "extraDeck": [["Blue-Eyes Ultimate Spirit Dragon",2],["Blue-Eyes Spirit Dragon",2],["Spirit with Eyes of Blue",2],["Blue-Eyes Tyrant Dragon",1],["Neo Blue-Eyes Ultimate Dragon",1],["Lightstorm Dragon",1],["Stardust Sifr Divine Dragon",1],["Crimson Dragon",1],["Cosmic Blazar Dragon",1],["Hieratic Seal of the Heavenly Spheres",1],["S:P Little Knight",1],["Linkuriboh",1]],
   "combos": [
     {
+      "id":"video-expert-true-light-line",
+      "name":"VIDEO EXPERT — True Light / Spirit Dragon / Sifr Line",
+      "difficulty":"Expert · Video Reference",
+      "requires":["Sage with Eyes of Blue + Maiden of White access + Blue-Eyes access + Primite setup"],
+      "result":"Blue-Eyes Ultimate Spirit Dragon + Stardust Sifr Divine Dragon + Hieratic Seal of the Heavenly Spheres + Primite Drillbeam + True Light + Blue-Eyes with Neo Blue-Eyes Ultimate Dragon protection + follow-up. The demonstrated end position is presented as approximately 5–6 disruptions.",
+      "sourceNote":"Built from the user's uploaded video section 4:46–8:17. The video demonstrates the sequencing and final interaction package; some intermediate actions are hand/setup dependent, so this trainer labels the line as a reference route rather than claiming it is the only legal route from every opening hand.",
+      "steps":[
+        {"title":"1. Establish Spirit with Eyes of Blue","tag":"SETUP","action":"Reach Spirit with Eyes of Blue using your Primite/Blue-Eyes starter sequence. In the demonstrated line, Spirit is already established before the True Light sequence begins.","why":"Spirit is the bridge that gives access to Mausoleum and the Blue-Eyes GY setup."},
+        {"title":"2. Resolve Spirit's search","tag":"SEARCH","action":"Use Spirit with Eyes of Blue to add Mausoleum of White when that search has not already been obtained.","why":"Mausoleum provides the additional Normal Summon and the GY-loading effect needed for the expert Synchro line."},
+        {"title":"3. Establish Sage + Maiden","tag":"ENGINE","action":"Normal Summon Sage with Eyes of Blue when the additional Normal Summon is available, then use Sage to access Maiden of White.","why":"Sage supplies the Level 1 tuner and Maiden becomes the True Light engine and later Synchro material."},
+        {"title":"4. Activate True Light first","tag":"IMPORTANT ORDER","action":"Place/activate True Light before continuing the rest of the Blue-Eyes extension.","why":"This ordering is a key teaching point from the video. True Light must be established before the following Blue-Eyes search/summon sequence so its once-per-turn resources are available at the correct point."},
+        {"title":"5. Special Summon Blue-Eyes with True Light","tag":"SUMMON","action":"Use True Light to Special Summon Blue-Eyes White Dragon from the hand or GY when the required Blue-Eyes resource is available.","why":"True Light converts the setup into a Level 8 Blue-Eyes body without spending another Normal Summon."},
+        {"title":"6. Resolve Maiden's return effect","tag":"TRIGGER","action":"When the Blue-Eyes Special Summon satisfies Maiden of White's trigger, use Maiden to Special Summon herself from the GY when appropriate.","why":"Maiden gives you another Level 1 tuner and is a key material for the second Synchro Dragon."},
+        {"title":"7. Make Blue-Eyes Spirit Dragon #1","tag":"SYNCHRO","action":"Synchro Summon Blue-Eyes Spirit Dragon using the available Blue-Eyes Level 8 monster and Sage with Eyes of Blue.","why":"Spirit Dragon is the first Level 9 Synchro and its tag-out effect is the route into the higher boss monsters."},
+        {"title":"8. Make the second Level 9 Synchro","tag":"SYNCHRO","action":"Use the remaining Blue-Eyes + Maiden resources to Synchro Summon the second Blue-Eyes Spirit Dragon when the line permits.","why":"The two Level 9 Synchros are used as separate conversion points: one becomes Ultimate Spirit Dragon and the other becomes Crimson Dragon."},
+        {"title":"9. Convert Spirit Dragon into Ultimate Spirit","tag":"BOSS","action":"Use a Blue-Eyes Spirit Dragon's tag-out effect to Special Summon Blue-Eyes Ultimate Spirit Dragon from the Extra Deck.","why":"Ultimate Spirit Dragon provides a major on-board interaction/negate and is one of the core final-board pieces shown in the video."},
+        {"title":"10. Convert the other Spirit Dragon into Crimson Dragon","tag":"BOSS","action":"Use the second Blue-Eyes Spirit Dragon's tag-out effect to Special Summon Crimson Dragon from the Extra Deck.","why":"Crimson Dragon is the bridge into Stardust Sifr Divine Dragon."},
+        {"title":"11. Crimson Dragon → Stardust Sifr","tag":"BOSS","action":"Activate Crimson Dragon targeting Blue-Eyes Ultimate Spirit Dragon, then Special Summon Stardust Sifr Divine Dragon from the Extra Deck.","why":"Sifr adds the monster-effect negate/destruction interaction and protection layer highlighted in the video's final board."},
+        {"title":"12. Prepare the Primite interaction","tag":"PRIMITE","action":"Keep Primite Lordly Lode / Primite Drillbeam online. If Lode has not already provided Drillbeam, resolve the Primite search at the correct point and keep a Normal Monster available when required.","why":"The video treats Drillbeam as a separate interaction from the Synchro bosses, increasing the number of disruptions without replacing the Blue-Eyes engine."},
+        {"title":"13. Use Lordly Lode for Blue-Eyes follow-up","tag":"FOLLOW-UP","action":"When the board state permits, activate Primite Lordly Lode declaring Blue-Eyes White Dragon to Special Summon Blue-Eyes from the GY.","why":"This creates another Blue-Eyes body, supports Primite conditions, and gives follow-up rather than ending with an empty resource pool."},
+        {"title":"14. Protect Blue-Eyes with Neo Ultimate","tag":"PROTECTION","action":"Use Wishes for Eyes of Blue's GY effect when available to equip Neo Blue-Eyes Ultimate Dragon to a Blue-Eyes White Dragon.","why":"The demonstrated end position uses Neo Blue-Eyes Ultimate Dragon as an Equip Spell to provide targeting protection while also converting Wishes into additional board value."},
+        {"title":"15. Establish Hieratic Seal","tag":"LINK","action":"Use the available Dragon bodies to Link Summon Hieratic Seal of the Heavenly Spheres when the line and Extra Deck resources permit.","why":"Hieratic Seal supplies the highlighted return-to-hand interaction and can turn its own tribute into another Dragon summon."},
+        {"title":"16. Keep True Light live","tag":"RESOURCE","action":"Leave True Light active and preserve its once-per-turn Special Summon or Set effect for the opponent's turn when possible.","why":"True Light is part of the final resource loop rather than merely a combo starter."},
+        {"title":"17. Final expert board check","tag":"ENDBOARD","action":"Check that the board retains Ultimate Spirit Dragon, Stardust Sifr, Hieratic Seal where the route produced it, Primite Drillbeam interaction, True Light, and a protected/follow-up Blue-Eyes resource.","why":"The video's end position is about layered interaction: monster negate/destruction, an omni-negate, a return-to-hand effect, Primite interaction, and additional destruction/follow-up. The video presents this as approximately 5–6 disruptions."},
+        {"title":"18. Opponent-turn priorities","tag":"PILOTING","action":"Do not fire every interaction immediately. Use the appropriate effect for the opponent's threat: Hieratic Seal for a valuable face-up card, Sifr for a monster effect, Ultimate Spirit/Primite interaction for effects that must be negated, and True Light for follow-up when the timing is favorable.","why":"Expert play is not only reaching the board; it is sequencing the interruptions so one interaction does not unnecessarily overlap another."}
+      ]
+    },
+    {
       "id":"expert-ether-sage",
-      "name":"EXPERT — Ether Beryl + Sage + Any Card",
+      "name":"EXPERT — Ether Beryl + Sage Core Line",
       "difficulty":"Expert",
       "requires":["Primite Dragon Ether Beryl","Sage with Eyes of Blue","Any 1 additional card"],
-      "result":"Blue-Eyes Ultimate Spirit Dragon + Stardust Sifr Divine Dragon + Primite Drillbeam + Neo Blue-Eyes Ultimate Dragon protection + True Light/Wishes follow-up + Blue-Eyes on field.",
-      "sourceNote":"Core sequence cross-checked against current Blue-Eyes Primite guides and published combo demonstrations. The exact endboard can change with the third card, available Extra Deck slots, or interruption; this is the clean no-interruption line.",
+      "result":"Blue-Eyes Ultimate Spirit Dragon + Stardust Sifr Divine Dragon + Primite Drillbeam + Neo Blue-Eyes Ultimate Dragon protection + True Light/Wishes follow-up.",
+      "sourceNote":"Core no-interruption route. Use the video-reference line above when learning the specific sequencing shown in the supplied video.",
       "steps":[
-        {"title":"1. Normal Summon Ether Beryl","tag":"START","action":"Normal Summon Primite Dragon Ether Beryl.","why":"Ether Beryl is the Primite starter. With Sage available, you want Ether Beryl to generate the Primite package before committing the Blue-Eyes Normal Summon."},
-        {"title":"2. Set Primite Lordly Lode","tag":"PRIMITE","action":"Activate Ether Beryl's on-summon effect and Set Primite Lordly Lode from the Deck.","why":"Lode is the Primite bridge to Drillbeam and later lets you put Blue-Eyes White Dragon on the field without consuming the Normal Summon."},
-        {"title":"3. Search Primite Drillbeam","tag":"SEARCH","action":"Activate Primite Lordly Lode and add Primite Drillbeam from the Deck.","why":"You are banking an additional interaction piece before starting the longer Blue-Eyes sequence."},
-        {"title":"4. Link Ether Beryl away","tag":"LINK","action":"Link Summon Spirit with Eyes of Blue using Primite Dragon Ether Beryl.","why":"Spirit with Eyes of Blue converts the Primite starter into access to Mausoleum of White."},
-        {"title":"5. Search Mausoleum","tag":"SEARCH","action":"Activate Spirit with Eyes of Blue's effect and add Mausoleum of White from the Deck.","why":"Mausoleum is what gives you the second Normal Summon for Sage."},
-        {"title":"6. Activate Mausoleum","tag":"FIELD SPELL","action":"Activate Mausoleum of White.","why":"You need its additional Normal Summon effect to put Sage on the field after using Ether Beryl's Normal Summon."},
-        {"title":"7. Normal Summon Sage","tag":"NORMAL SUMMON","action":"Use Mausoleum's additional Normal Summon to Normal Summon Sage with Eyes of Blue.","why":"This is the Blue-Eyes engine's critical tuner/search step."},
-        {"title":"8. Search Maiden","tag":"SEARCH","action":"Activate Sage with Eyes of Blue and add Maiden of White from the Deck.","why":"Maiden is both a Level 1 tuner and the card that establishes True Light from the Deck."},
-        {"title":"9. Put True Light on the field","tag":"SETUP","action":"Send Maiden of White to the GY with its effect and place True Light face-up from the Deck.","why":"True Light gives you the next Blue-Eyes Spell/Trap search and another Blue-Eyes summon route."},
-        {"title":"10. Load Blue-Eyes into the GY","tag":"MAUSOLEUM","action":"Use Mausoleum of White targeting Spirit with Eyes of Blue; send Blue-Eyes White Dragon from the Deck to the GY.","why":"You deliberately put the Normal Monster in the GY so Spirit can convert itself into Blue-Eyes."},
-        {"title":"11. Tribute Spirit to revive Blue-Eyes","tag":"SUMMON","action":"Tribute Spirit with Eyes of Blue to Special Summon Blue-Eyes White Dragon from the GY.","why":"Spirit's tribute effect is the central bridge into the Synchro line."},
-        {"title":"12. Revive Maiden","tag":"TRIGGER","action":"Because Blue-Eyes White Dragon was Special Summoned, activate Maiden of White in the GY to Special Summon Maiden.","why":"Now you have Blue-Eyes plus the Level 1 tuners needed to make the first Spirit Dragon."},
-        {"title":"13. Synchro Summon Spirit Dragon #1","tag":"SYNCHRO","action":"Synchro Summon Blue-Eyes Spirit Dragon using Blue-Eyes White Dragon + Sage with Eyes of Blue.","why":"This is the first Level 9 Synchro body and will later become Blue-Eyes Ultimate Spirit Dragon."},
-        {"title":"14. True Light sets Wishes","tag":"FOLLOW-UP","action":"Activate True Light and Set Wishes for Eyes of Blue from the Deck.","why":"Wishes is the key 2-card search that supplies the second Blue-Eyes body and an additional Level 1 LIGHT monster/hand-trap resource."},
-        {"title":"15. Activate Wishes","tag":"SEARCH","action":"Activate Wishes for Eyes of Blue, discard the spare card from your hand, and add Roar of the Blue-Eyed Dragons + Effect Veiler from the Deck. If Roar is already in hand, use the second search for the appropriate Blue-Eyes Spell/Trap/follow-up instead.","why":"Wishes converts one spare card into two exact resources. Effect Veiler is searchable here and can remain as insulation."},
-        {"title":"16. Special Summon Blue-Eyes with Roar","tag":"EXTEND","action":"Activate Roar of the Blue-Eyed Dragons to Special Summon Blue-Eyes White Dragon from the Deck.","why":"This gives you the second Blue-Eyes body required to make the second Spirit Dragon without using another Normal Summon."},
-        {"title":"17. Equip Neo Ultimate protection","tag":"PROTECTION","action":"Banish Wishes for Eyes of Blue from the GY and equip Neo Blue-Eyes Ultimate Dragon from the Extra Deck to a Blue-Eyes White Dragon as an Equip Spell.","why":"This grants targeting protection and converts Wishes' GY effect into permanent value on the board."},
-        {"title":"18. Synchro Summon Spirit Dragon #2","tag":"SYNCHRO","action":"Synchro Summon the second Blue-Eyes Spirit Dragon using the remaining Blue-Eyes White Dragon + Maiden of White.","why":"Two Spirit Dragons are the material bridge into Ultimate Spirit Dragon and Crimson Dragon."},
-        {"title":"19. Spirit Dragon #1 → Ultimate Spirit","tag":"BOSS","action":"Use the first Blue-Eyes Spirit Dragon's tag effect to Special Summon Blue-Eyes Ultimate Spirit Dragon from the Extra Deck.","why":"Ultimate Spirit Dragon is your major field-effect interaction/negate."},
-        {"title":"20. Spirit Dragon #2 → Crimson Dragon","tag":"BOSS","action":"Use the second Blue-Eyes Spirit Dragon's tag effect to Special Summon Crimson Dragon from the Extra Deck.","why":"Crimson Dragon is the bridge to the Level 12 Synchro boss."},
-        {"title":"21. Crimson Dragon → Stardust Sifr","tag":"BOSS","action":"Activate Crimson Dragon targeting Blue-Eyes Ultimate Spirit Dragon, then Special Summon Stardust Sifr Divine Dragon from the Extra Deck.","why":"Sifr adds another monster-effect interaction layer and protection to the final board."},
-        {"title":"22. Recover Blue-Eyes with Lordly Lode","tag":"FOLLOW-UP","action":"Activate Primite Lordly Lode, declare Blue-Eyes White Dragon, and Special Summon Blue-Eyes from the GY when the board state permits.","why":"This leaves a Normal Monster available for Primite Drillbeam and gives you another body/follow-up."},
-        {"title":"23. Set Drillbeam and remaining interaction","tag":"ENDBOARD","action":"Set Primite Drillbeam and any remaining traps/hand traps. Keep Effect Veiler in hand if you searched it with Wishes.","why":"Drillbeam is strongest when you control a Normal Monster; the completed board should retain both boss interaction and a Primite interaction."},
-        {"title":"24. EXPERT END-BOARD CHECK","tag":"CHECK","action":"Before ending the turn, confirm: Blue-Eyes Ultimate Spirit Dragon, Stardust Sifr Divine Dragon, Neo Blue-Eyes Ultimate Dragon equipped to a Blue-Eyes, Primite Drillbeam available, True Light/Wishes resources, and any remaining hand traps.","why":"The expert line is about preserving layered interaction and follow-up, not simply filling every zone."}
-      ]
-    },
-    {
-      "id":"expert-ether-only",
-      "name":"EXPERT — Ether Beryl 1-Card Line",
-      "difficulty":"Expert / 1-card",
-      "requires":["Primite Dragon Ether Beryl"],
-      "result":"Hieratic Seal of the Heavenly Spheres + Primite Drillbeam + Blue-Eyes follow-up.",
-      "steps":[
-        {"title":"Normal Summon Ether Beryl","tag":"START","action":"Normal Summon Primite Dragon Ether Beryl and Set Primite Lordly Lode.","why":"Start Primite without spending a Blue-Eyes card."},
-        {"title":"Search Drillbeam","tag":"SEARCH","action":"Activate Lordly Lode and add Primite Drillbeam.","why":"Bank your interaction before extending."},
-        {"title":"Make Spirit with Eyes of Blue","tag":"LINK","action":"Link Summon Spirit with Eyes of Blue using Ether Beryl and search Mausoleum of White.","why":"This gives you a Dragon body and access to Blue-Eyes resources."},
-        {"title":"Summon Blue-Eyes with Lode","tag":"EXTEND","action":"Activate Lordly Lode declaring Blue-Eyes White Dragon and Special Summon Blue-Eyes from the Deck when legal.","why":"You now have two Dragon bodies without needing a second starter."},
-        {"title":"Make Hieratic Seal","tag":"LINK","action":"Link Summon Hieratic Seal of the Heavenly Spheres using Blue-Eyes White Dragon + Spirit with Eyes of Blue.","why":"Seal gives you a bounce on the opponent's turn and converts itself into another Dragon when Tributed."},
-        {"title":"Opponent-turn Seal line","tag":"INTERRUPTION","action":"On the opponent's turn, use Hieratic Seal to bounce a face-up card; then Special Summon Blue-Eyes White Dragon from the Deck with Seal's effect when appropriate.","why":"This creates a bounce plus a Blue-Eyes Normal Monster on the field."},
-        {"title":"Drillbeam interaction","tag":"INTERRUPTION","action":"With Blue-Eyes on the field, activate Primite Drillbeam when its conditions are met to negate and banish the opponent's face-up card.","why":"The 1-card Primite line ends with two distinct interaction points and follow-up."}
-      ]
-    },
-    {
-      "id":"expert-wishes",
-      "name":"EXPERT — Wishes for Eyes of Blue Branches",
-      "difficulty":"Expert",
-      "requires":["Wishes for Eyes of Blue"],
-      "result":"Wishes branches into Sage/Blue-Eyes or Maiden/True Light lines depending on the other cards in hand.",
-      "steps":[
-        {"title":"Activate Wishes","tag":"START","action":"Discard a card and activate Wishes for Eyes of Blue.","why":"Wishes searches a Level 1 LIGHT Tuner and a Blue-Eyes Spell/Trap, so the correct targets depend on the rest of your hand."},
-        {"title":"If you lack Sage: search Sage","tag":"BRANCH A","action":"Add Sage with Eyes of Blue when your hand needs the Sage starter line.","why":"Sage converts into Maiden and gives you access to the True Light setup."},
-        {"title":"If you already have Sage: search Maiden","tag":"BRANCH B","action":"Add Maiden of White instead when Sage is already in hand and you need the True Light route.","why":"Avoid adding a redundant Sage when Maiden is the missing piece."},
-        {"title":"Choose Roar or True Light support","tag":"BRANCH","action":"Use the Blue-Eyes Spell/Trap search to obtain Roar, True Light, or the appropriate follow-up based on your existing hand.","why":"Expert play is hand-dependent: don't blindly copy the same target every time."},
-        {"title":"Transition into the full line","tag":"CONTINUE","action":"From the chosen branch, follow the Ether Beryl + Sage sequence when both Normal Summons can be established.","why":"The goal is to arrive at the same layered Synchro endboard while preserving the most resources."}
+        {"title":"Normal Summon Ether Beryl","tag":"START","action":"Normal Summon Primite Dragon Ether Beryl and Set Primite Lordly Lode.","why":"Generate the Primite package before committing the Blue-Eyes Normal Summon."},
+        {"title":"Search Drillbeam","tag":"SEARCH","action":"Activate Primite Lordly Lode and add Primite Drillbeam.","why":"Bank the Primite interaction early."},
+        {"title":"Link into Spirit","tag":"LINK","action":"Link Summon Spirit with Eyes of Blue using Ether Beryl and search Mausoleum of White.","why":"Convert the Primite starter into Blue-Eyes engine access."},
+        {"title":"Activate Mausoleum","tag":"FIELD","action":"Activate Mausoleum of White and use its additional Normal Summon for Sage.","why":"This bypasses the Normal Summon already spent on Ether Beryl."},
+        {"title":"Sage → Maiden","tag":"SEARCH","action":"Normal Summon Sage and add Maiden of White.","why":"Maiden establishes True Light and becomes later Synchro material."},
+        {"title":"Maiden → True Light","tag":"SETUP","action":"Send Maiden as required to place True Light face-up.","why":"Establish True Light before continuing the high-value extension."},
+        {"title":"Mausoleum loads Blue-Eyes","tag":"GY SETUP","action":"Target Spirit with Mausoleum and send Blue-Eyes White Dragon from Deck to GY.","why":"Load the Normal Monster so Spirit can Special Summon it."},
+        {"title":"Spirit → Blue-Eyes","tag":"SUMMON","action":"Tribute Spirit with Eyes of Blue to Special Summon Blue-Eyes from the GY.","why":"Create the Level 8 body for the first Synchro."},
+        {"title":"Maiden returns","tag":"TRIGGER","action":"Special Summon Maiden from the GY after Blue-Eyes is Special Summoned.","why":"Recover the Level 1 tuner for the next Synchro."},
+        {"title":"First Spirit Dragon","tag":"SYNCHRO","action":"Synchro Summon Blue-Eyes Spirit Dragon using Blue-Eyes + Sage.","why":"Start the boss conversion sequence."},
+        {"title":"Second Spirit Dragon","tag":"SYNCHRO","action":"Use the second Blue-Eyes + Maiden route to make another Blue-Eyes Spirit Dragon.","why":"The second Level 9 body becomes Crimson Dragon."},
+        {"title":"Ultimate Spirit + Crimson → Sifr","tag":"BOSS","action":"Tag the two Spirit Dragons into Blue-Eyes Ultimate Spirit Dragon and Crimson Dragon, then use Crimson to summon Stardust Sifr Divine Dragon.","why":"Layer the major boss interactions."},
+        {"title":"Finish Primite resources","tag":"ENDBOARD","action":"Use Lordly Lode/Drillbeam and True Light/Wishes for the appropriate follow-up based on the cards remaining in hand.","why":"Preserve interaction and follow-up instead of overextending."}
       ]
     }
   ]
