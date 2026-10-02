@@ -1,0 +1,60 @@
+{
+  "name": "Blue Eyes, primite",
+  "format": "Yu-Gi-Oh! Master Duel",
+  "mainDeck": [
+    ["Blue-Eyes White Dragon",2],["Sage with Eyes of Blue",3],["Maiden of White",3],["Primite Dragon Ether Beryl",3],["Ash Blossom & Joyous Spring",3],["Effect Veiler",3],["Maxx \"C\"",2],
+    ["Wishes for Eyes of Blue",3],["Primite Lordly Lode",3],["Primite Drillbeam",1],["Roar of the Blue-Eyed Dragons",1],["Mausoleum of White",1],["Crossout Designator",1],["Called by the Grave",2],["Synchro Rumble",1],["Ultimate Fusion",1],
+    ["True Light",1],["Infinite Impermanence",3],["Dominus Purge",3]
+  ],
+  "extraDeck": [
+    ["Blue-Eyes Ultimate Spirit Dragon",2],["Blue-Eyes Spirit Dragon",2],["Spirit with Eyes of Blue",2],["Blue-Eyes Tyrant Dragon",1],["Neo Blue-Eyes Ultimate Dragon",1],["Lightstorm Dragon",1],["Stardust Sifr Divine Dragon",1],["Crimson Dragon",1],["Cosmic Blazar Dragon",1],["Hieratic Seal of the Heavenly Spheres",1],["S:P Little Knight",1],["Linkuriboh",1]
+  ],
+  "combos": [
+    {
+      "id":"ether-sage-full",
+      "name":"Ether Beryl + Sage — Full Endboard",
+      "difficulty":"Core line",
+      "requires":["Primite Dragon Ether Beryl","Sage with Eyes of Blue"],
+      "result":"Blue-Eyes Ultimate Spirit Dragon + Stardust Sifr Divine Dragon + Primite Drillbeam + follow-up",
+      "steps":[
+        {"title":"Normal Summon Ether Beryl","action":"Normal Summon Primite Dragon Ether Beryl.","why":"Ether Beryl is the Primite starter and gives access to Lordly Lode."},
+        {"title":"Set Primite Lordly Lode","action":"Activate Ether Beryl's on-summon effect and Set Primite Lordly Lode from the Deck.","why":"Lode is the bridge to Drillbeam and later provides Blue-Eyes follow-up."},
+        {"title":"Add Primite Drillbeam","action":"Activate Lordly Lode and add Primite Drillbeam.","why":"This creates the Primite interaction you want available later."},
+        {"title":"Link Summon Spirit with Eyes of Blue","action":"Link Summon Spirit with Eyes of Blue using Ether Beryl.","why":"Spirit converts your Level 4 starter into the Blue-Eyes engine and searches Mausoleum."},
+        {"title":"Search Mausoleum of White","action":"Activate Spirit with Eyes of Blue and add Mausoleum of White.","why":"Mausoleum gives you the additional Normal Summon needed for Sage."},
+        {"title":"Activate Mausoleum","action":"Activate Mausoleum of White.","why":"This enables the extra Normal Summon of a Level 1 LIGHT Tuner."},
+        {"title":"Normal Summon Sage","action":"Normal Summon Sage with Eyes of Blue using Mausoleum's additional Normal Summon.","why":"Sage is the main Blue-Eyes tuner/searcher for this line."},
+        {"title":"Search Maiden of White","action":"Activate Sage and add Maiden of White from the Deck.","why":"Maiden places True Light and later returns when Blue-Eyes is Special Summoned."},
+        {"title":"Place True Light","action":"Send Maiden of White from your hand/field to the GY and place True Light from the Deck.","why":"True Light gives you another Blue-Eyes summon and a way to set a Blue-Eyes Spell/Trap."},
+        {"title":"Send Blue-Eyes to the GY","action":"Use Mausoleum targeting Spirit with Eyes of Blue; send Blue-Eyes White Dragon from the Deck to the GY.","why":"This loads the Normal Monster needed for the next summon and for Primite interactions."},
+        {"title":"Summon Blue-Eyes","action":"Tribute Spirit with Eyes of Blue to Special Summon Blue-Eyes White Dragon from the GY.","why":"Spirit's Tribute effect converts itself into the Blue-Eyes body you need for Synchro plays."},
+        {"title":"Bring back Maiden","action":"When Blue-Eyes is Special Summoned, activate Maiden of White in the GY to Special Summon Maiden.","why":"Maiden becomes the second Level 1 tuner needed for the next Synchro line."},
+        {"title":"Synchro Summon Blue-Eyes Spirit Dragon","action":"Synchro Summon Blue-Eyes Spirit Dragon using Blue-Eyes White Dragon + Sage with Eyes of Blue.","why":"Spirit Dragon gives you a strong endboard body and a GY-effect interaction."},
+        {"title":"Set Wishes with True Light","action":"Activate True Light and Set Wishes for Eyes of Blue from the Deck.","why":"Wishes is a powerful 2-for-1 search and also has GY utility later."},
+        {"title":"Activate Wishes","action":"Activate Wishes for Eyes of Blue, discard 1 card, and search the appropriate Level 1 LIGHT Tuner plus a Blue-Eyes Spell/Trap.","why":"Use the second search to prepare follow-up; the exact choice depends on what is already in your hand."},
+        {"title":"Use Roar if appropriate","action":"If Roar of the Blue-Eyed Dragons is the search target and your line allows it, use Roar to Special Summon Blue-Eyes White Dragon.","why":"Roar converts the searched resource into another Blue-Eyes body for the Extra Deck line."},
+        {"title":"Equip Neo Blue-Eyes Ultimate","action":"If the board state allows, banish Wishes from the GY to equip Neo Blue-Eyes Ultimate Dragon to Blue-Eyes as an Equip Spell.","why":"This provides targeting protection and uses Wishes' second effect."},
+        {"title":"Make the second Spirit Dragon","action":"Synchro Summon another Blue-Eyes Spirit Dragon using Blue-Eyes + Maiden of White.","why":"The second Spirit Dragon is the stepping stone into the higher Synchro bosses."},
+        {"title":"Climb to Ultimate Spirit Dragon","action":"Tribute the Blue-Eyes Spirit Dragon to Special Summon Blue-Eyes Ultimate Spirit Dragon from the Extra Deck.","why":"Ultimate Spirit Dragon is the main field negate in this line."},
+        {"title":"Crimson Dragon into Sifr","action":"Use your remaining Blue-Eyes Spirit Dragon line to make Crimson Dragon, then target Blue-Eyes Ultimate Spirit Dragon with Crimson Dragon to Special Summon Stardust Sifr Divine Dragon.","why":"Sifr adds monster-effect interaction and destruction protection to the final board."},
+        {"title":"Finish the board","action":"Use Lordly Lode to declare Blue-Eyes White Dragon and Special Summon it from the GY when appropriate; Set remaining interaction such as Primite Drillbeam.","why":"You finish with layered interaction plus follow-up rather than spending every resource."}
+      ]
+    },
+    {
+      "id":"ether-only",
+      "name":"Ether Beryl — 1-card defensive line",
+      "difficulty":"1-card starter",
+      "requires":["Primite Dragon Ether Beryl"],
+      "result":"Hieratic Seal of the Heavenly Spheres + Primite Drillbeam + follow-up",
+      "steps":[
+        {"title":"Normal Summon Ether Beryl","action":"Normal Summon Primite Dragon Ether Beryl.","why":"Start the Primite engine."},
+        {"title":"Set Lordly Lode","action":"Use Ether Beryl to Set Primite Lordly Lode.","why":"Lode gives access to Drillbeam and can revive Blue-Eyes later."},
+        {"title":"Add Drillbeam","action":"Activate Lordly Lode and add Primite Drillbeam.","why":"Prepare the Primite interaction."},
+        {"title":"Link into Spirit","action":"Link Summon Spirit with Eyes of Blue using Ether Beryl.","why":"Spirit gives you a route into Blue-Eyes resources and can search Mausoleum."},
+        {"title":"Get Blue-Eyes on field","action":"Use Lordly Lode to declare Blue-Eyes White Dragon and Special Summon it when appropriate.","why":"You need a Normal Monster on the field for the Primite line and a second Dragon body."},
+        {"title":"Make Hieratic Seal","action":"Link Summon Hieratic Seal of the Heavenly Spheres using two Dragon monsters.","why":"Hieratic gives you a bounce during the opponent's turn and a Dragon summon when it is Tributed."},
+        {"title":"Hold interaction","action":"Keep Primite Drillbeam available and use Hieratic Seal during the opponent's turn when its bounce is valuable.","why":"This is the compact 1-card line when you cannot access the full Sage/Maiden sequence."}
+      ]
+    }
+  ]
+}
