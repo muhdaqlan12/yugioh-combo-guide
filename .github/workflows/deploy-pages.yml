@@ -24,7 +24,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Pages
+      - name: Build card gallery\n        run: python3 build_cards.py\n\n      - name: Setup Pages
         uses: actions/configure-pages@v5
 
       - name: Upload site
