@@ -1,0 +1,36 @@
+name: Blue-Eyes Live Coach V1 checks
+on:
+  push:
+    branches: [blue-eyes-live-coach-v1]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: windows-latest
+    defaults:
+      run:
+        working-directory: live-coach
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Engine tests
+        run: python -m unittest discover -s tests -v
+      - name: Import and instantiate overlay (headless)
+        env:
+          QT_QPA_PLATFORM: offscreen
+        run: |
+          python -c "from PySide6.QtWidgets import QApplication; from app import Overlay; a=QApplication([]); w=Overlay(); print('Overlay ready:', w.windowTitle()); w.close()"
+      - name: Compile Python sources
+        run: python -m compileall -q app.py core tests
+      - name: Build Windows EXE
+        run: python -m PyInstaller --clean --noconfirm packaging/blue_eyes_live_coach.spec
+      - name: Upload built EXE
+        uses: actions/upload-artifact@v4
+        with:
+          name: BlueEyesLiveCoach-Windows-V1
+          path: live-coach/dist/BlueEyesLiveCoach.exe
+          if-no-files-found: error
