@@ -130,7 +130,7 @@ class CoachEngine:
 
     def resolve(self) -> None:
         step = self.current_step()
-        if step is None:
+        if step is None or self.state.paused:
             return
         self.state.history.append({"step": self.state.index, "outcome": "resolved", "title": step.title})
         self.state.index += 1
