@@ -34,7 +34,7 @@ class EngineTests(unittest.TestCase):
         self.assertTrue(self.engine.state.paused)
         self.assertEqual(self.engine.state.index,0)
         self.engine.resolve()
-        self.assertEqual(self.engine.state.index,1 if False else 0)
+        self.assertEqual(self.engine.state.index,0)
 
     def test_resolve_and_replan(self):
         self.engine.select_hand([
