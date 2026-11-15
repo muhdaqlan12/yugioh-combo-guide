@@ -10,7 +10,7 @@ DECK_PATH = ROOT / "data" / "blue-eyes-primite.json"
 def load_deck(path: Path = DECK_PATH) -> dict:
     with path.open(encoding="utf-8") as stream:
         deck = json.load(stream)
-    assert sum(n for _, n in deck["mainDeck"]) == 40, "Main Deck must have 40 cards"
+    assert 40 <= sum(n for _, n in deck["mainDeck"]) <= 60, "Main Deck must contain 40–60 cards"
     assert sum(n for _, n in deck["extraDeck"]) == 15, "Extra Deck must have 15 cards"
     return deck
 
