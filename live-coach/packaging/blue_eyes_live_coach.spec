@@ -2,7 +2,7 @@
 from pathlib import Path
 from PyInstaller.utils.hooks import collect_submodules
 
-root = Path(SPECPATH).resolve()
+root = Path(SPECPATH).resolve().parent
 a = Analysis(
     [str(root / "app.py")],
     pathex=[str(root)],
